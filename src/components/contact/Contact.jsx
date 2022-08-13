@@ -16,7 +16,7 @@ const sendEmail = (e) => {
 
   return (
     <section id='contact'>
-      <h5>Ponerse en contacto</h5>
+      <h5>Medios de contacto</h5>
       <h2>Contactame</h2>
 
       <div className="container contact__container">
@@ -31,13 +31,13 @@ const sendEmail = (e) => {
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Ignacio Vargas</h5>
-            <a href="https://m.me/nacho.vargas1337" target='_blank'>Enviame un mensaje</a>
+            <a href="https://m.me/nacho.vargas1337" target='_blank' rel='noreferrer'>Enviame un mensaje</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+54 9 (380) 4985728</h5>
-            <a href="https://api.whatsapp.com/send?phone=5493804985728" target='_blank'>Enviame un mensaje</a>
+            <a href="https://api.whatsapp.com/send?phone=5493804985728" target='_blank' rel='noreferrer'>Enviame un mensaje</a>
           </article>
         </div>
         {/* end of contact options */}
